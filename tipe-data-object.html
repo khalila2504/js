@@ -8,24 +8,49 @@
 </head>
 <body>
     <script>
-        const orang = {}
-     // menambah ato mengubah
-        orang["nama"] = "aya";
-        orang["alamat"] = "indonesiaa";
-        orang["umur"] = "18";
+    //     const orang = {}
+    //  // menambah ato mengubah
+    //     orang["nama"]   = "aya";
+    //     orang["alamat"] = "indonesiaa";
+    //     orang["umur"]   = "18";
 
-        // // menghapus
+    //     // // menghapus
+    //     delete orang["umur"];
+
+    //     // membuat object dg properties
+    //     const manusia = {
+    //         nama: "kala",
+    //         alamat: "indonesia",
+    //         umur: 18
+    //     };
+
+    //     console.table(manusia);
+    //     console.table(orang);
+
+        const orang = {
+            'nama lengkap' : "fathiya",
+            "no telp"   : "085xxxxxxxxx",
+            alamat : "indo",
+            umur : 31
+        }
+// ubah property/attribute
+        let person = {}
+        person["nama"]  = "khalila";
+        person["alamat"] = "indonesia";
+        person["umur"] = 18;
+
+        console.info(`Nama : ${orang["nama lengkap"]}`);
+        console.info(`No telp : ${orang['no telp']}`);
+        console.info(`alamat : ${orang.alamat}`);
+        console.info(`umur : ${orang.umur}`);
+
+        console.table(orang);
+
         delete orang["umur"];
 
-        // membuat object dg properties
-        const manusia = {
-            nama: "kala",
-            alamat: "indonesia",
-            umur: 18
-        };
-
-        console.table(manusia);
         console.table(orang);
+
+
     </script>
 </body>
 </html>
