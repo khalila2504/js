@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipe dta array</title>
+</head>
+<body>
+    <script>
+        let arrayNama = ["Eko", "Kurniawan", "Khannedy"];
+
+        console.table(arrayNama);
+
+        console.info(arrayNama[0]);
+        console.info(arrayNama[1]);
+        console.info(arrayNama[2]);
+
+        let siswa = [];
+        siswa[0] = 'andre';
+        siswa[2] = 'sule';
+        siswa.push('fitri'); // gunanya push adl mnambahkan data dr belakang indeks terakhir
+        siswa.push('juleha');
+        siswa.push('A1', 'A2', 'A3');
+        siswa[2] = 'nunung';
+        siswa[20] = 'mis';
+        // delete siswa[4];
+        siswa[siswa.length] = 'bonge'
+        siswa.sort(); // urut bds alphabet a-z
+        siswa.reverse(); // urut bds alphabet z-a
+        console.table(siswa);
+        console.info(siswa.length); // ttp 8 wlopun indeks satu egk ad, bgtu jg 20 indeks ny ttp 21 wlopun indeks byk yg ksong
+        
+
+    </script>
+</body>
+</html>
